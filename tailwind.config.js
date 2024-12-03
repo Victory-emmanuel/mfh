@@ -21,8 +21,8 @@ export default {
         secondary: "#370D00",
         // Your accent color is for call to actions like buttons and links
 
-        accent: "#C3986F",
-        darkAccent: "#A46843",
+        lightAccent: "#C3986F",
+        accent: "#A46843",
 
         black: "#140500",
         white: "#F7F6F3",

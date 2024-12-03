@@ -55,7 +55,7 @@ const Navbar = () => {
                   key={index}
                   to={link.path}
                   smooth
-                  className="text-secondary dark:text-primary hover:text-accent md:pb-2 font-medium hover:border-b hover:border-b-accent cursor duration-300"
+                  className=" text-primary hover:text-lightAccent md:pb-2 font-medium hover:border-b hover:border-b-lightAccent cursor duration-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   to={link.path}
-                  className="text-secondary dark:text-primary hover:text-accent md:pb-2 font-medium hover:border-b hover:border-b-accent cursor duration-300"
+                  className="text-primary hover:text-lightAccent md:pb-2 font-medium hover:border-b hover:border-b-lightAccent cursor duration-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
@@ -72,7 +72,7 @@ const Navbar = () => {
               )
             )}
             <div className="md:flex md:gap-8 md:items-center">
-              <Button className="bg-accent text-primary hover:bg-transparent hover:border hover:border-accent hover:text-accent dark:hover:text-primary duration-700 rounded-md xs:py-3 xs:px-6 xx:py-2 xx:px-4">
+              <Button className="bg-lightAccent text-secondary hover:bg-transparent hover:border hover:border-lightAccent hover:text-lightAccent dark:hover:text-primary duration-700 rounded-md xs:py-3 xs:px-6 xx:py-2 xx:px-4">
                 Contact Us
               </Button>
               <ThemeToggle />

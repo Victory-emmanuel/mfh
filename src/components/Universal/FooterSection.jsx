@@ -30,12 +30,15 @@ const FooterSection = () => {
         >
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <img
-              src="/path-to-your-logo.png"
-              alt="Brand Logo"
-              className="h-12 mb-4"
-            />
-            <Typography className="mb-4">
+            {/* Logo */}
+            <div>
+              <img
+                src="https://i.postimg.cc/kXtPjpy5/mfh.png"
+                className="md:w-[8rem] md:h-[4rem] ss:w-[6rem] ss:h-[3.5rem] xx:w-[4rem] xx:h-[2.5rem]  "
+                alt="Logo"
+              />
+            </div>
+            <Typography className="my-4">
               We are dedicated to providing innovative solutions and exceptional
               service to our clients.
             </Typography>
